@@ -8,14 +8,12 @@ import Menu from "@/components/menu/Menu";
 export default function Home() {
   return (
     <div>
-      <Link href="/" className={styles.container}>
-        <Featured />
-        <CategoryList />
-        <div className={styles.content}>
-          <CardList />
-          <Menu />
-        </div>
-      </Link>
+      <Featured />
+      <CategoryList />
+      <div className={styles.content}>
+        <CardList />
+        <Menu />
+      </div>
     </div>
   );
 }

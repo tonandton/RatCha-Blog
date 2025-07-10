@@ -57,6 +57,127 @@
      cursor: pointer;
 }
 
+@media screen and (max-width: 1280px) {
+     .featured_title__rFWcP {
+          font-size: 72px;
+     }
+}
+
+@media screen and (max-width: 1024px) {
+     .featured_title__rFWcP {
+          font-size: 62px;
+     }
+
+     .featured_imgContainer__phBYF {
+          display: none;
+     }
+}
+
+@media screen and (max-width: 768px) {
+     .featured_title__rFWcP {
+          font-size: 48px;
+     }
+}
+
+
+@media screen and (max-width: 640px) {
+     .featured_title__rFWcP {
+          font-size: 36px;
+     }
+}
+
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/categoryList/categoryList.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.categoryList_container__s6HpR {
+
+}
+
+.categoryList_title__8DsfE {
+     margin: 50px 0;
+}
+
+.categoryList_categories__JjFld {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 20px;
+}
+
+.categoryList_category__kGfZ1 {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     text-transform: capitalize;
+     width: 15%;
+     height: 60px;
+     justify-content: center;
+     padding: 4px 10px;
+     font-size: 14px;
+     font-weight: 500;
+     -webkit-backdrop-filter: blur(4px);
+             backdrop-filter: blur(4px); /* ให้รู้สึกเหมือนกลาส */
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); /* เบา ๆ */
+}
+
+.categoryList_category__kGfZ1.categoryList_style__BIpo_ {
+  background-color: rgba(87, 196, 255, 0.2); /* ฟ้าอ่อนโปร่ง */
+  color: #57c4ff;
+  border-radius: 5px;
+}
+
+.categoryList_category__kGfZ1.categoryList_food__AaDJS {
+  background-color: rgba(127, 184, 129, 0.2); /* เขียวอ่อน */
+  color: #7fb881;
+  border-radius: 5px;
+}
+
+.categoryList_category__kGfZ1.categoryList_travel__gnqt1 {
+  background-color: rgba(255, 121, 87, 0.2); /* แดงอมส้ม */
+  color: #ff7957;
+  border-radius: 5px;
+}
+
+.categoryList_category__kGfZ1.categoryList_culture__N8ciR {
+  background-color: rgba(197, 151, 94, 0.25); /* ส้มอ่อน */
+  color: #ffb04f;
+  border-radius: 5px;
+}
+
+.categoryList_category__kGfZ1.categoryList_coding__nDVNj {
+  background-color: rgba(94, 79, 255, 0.2); /* น้ำเงินอมม่วง */
+  color: #5e4fff;
+  border-radius: 5px;
+}
+
+.categoryList_image__DU_oJ {
+     border-radius: 10%;
+}
+
+@media screen and (max-width: 1280px) {
+     .categoryList_category__kGfZ1 {
+          width: 20%;
+     }
+}
+
+@media screen and (max-width: 1024px) {
+     .categoryList_category__kGfZ1 {
+          width: 25%;
+     }
+}
+
+@media screen and (max-width: 768px) {
+     .categoryList_category__kGfZ1 {
+          width: 45%;
+     }
+}
+
+@media screen and (max-width: 640px) {
+     .categoryList_category__kGfZ1 {
+          width: 100%;
+     }
+}
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/cardList/cardList.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************/
