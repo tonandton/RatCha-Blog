@@ -1,6 +1,6 @@
 :root {
-     --bg:white;
-     --textColor:black;
+     --bg: rgb(240, 231, 219);
+     --textColor: #1A202C;
      --sofBg: #f0f0f0;
      --softTextColor:#626262;
 }
@@ -19,6 +19,13 @@ body {
 a {
      color: inherit;
      text-decoration: none;
+}
+
+.dark {
+     --bg: #202023;
+     --textColor: #ddd;
+     --softBg: #1f273a;
+     --softTextColor: #a6a6a6;
 }
 
 .container {
