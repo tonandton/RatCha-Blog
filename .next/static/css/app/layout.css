@@ -18,6 +18,79 @@
      border-radius: 50%;
      position: absolute;
 }
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/authLink/authLink.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.authLink_container__uvgnl {
+     position: relative;
+}
+
+.authLink_link__kmnWx {
+     cursor: pointer;
+     margin-left: 1rem;
+     font-weight: 500;
+}
+
+.authLink_desktopLinks__oAWYh {
+     display: flex;
+     gap: 1rem;
+}
+
+.authLink_burger__LOSOv {
+     width: 24px;
+     height: 18px;
+     flex-direction: column;
+     justify-content: space-between;
+     cursor: pointer;
+     display: none;
+}
+
+.authLink_line__Z9R2U {
+     width: 100%;
+     height: 2px;
+     background-color: var(--textColor);
+     transition: all 0.3s ease;
+}
+
+.authLink_responsiveMenu__oKGKh {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  background-color: var(--bg, white);
+  width: 165px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 999;
+}
+
+@media screen and (max-width: 640px) {
+     .authLink_burger__LOSOv {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+     }
+     
+     .authLink_desktopLinks__oAWYh {
+          display: none;
+     }
+
+     .authLink_open__x3VRs {
+          opacity: 1;
+          pointer-events: auto;
+          transform: translateY(0)
+     }
+}
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -102,7 +175,7 @@
      gap: 10px;
      flex: 2 1;
      text-align: center;
-     font-size: 17px;
+     font-size: 22px;
      font-weight: bold;
 }
 
@@ -115,7 +188,7 @@
 
 @media screen and (max-width: 1280px) {
      .navbar_logo__uZP7g {
-          font-size: 32px;
+          font-size: 20px;
      }
 
      .navbar_links__zwFDW {
@@ -123,11 +196,19 @@
           gap: 15px;
      }
 }
-/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/authLink/authLink.module.css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************/
-.authLink_link__kmnWx {
-     cursor: pointer;
+
+@media screen and (max-width: 640px) {
+     .navbar_links__zwFDW {
+          justify-content: flex-end;
+     }
+
+     .navbar_link__AyfKG {
+          display: none;
+     }
+
+     .navbar_logo__uZP7g {
+          font-size: 20px;
+     }
 }
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/footer/footer.module.css ***!
@@ -164,6 +245,13 @@ a {
      --textColor: #ddd;
      --softBg: #1f273a;
      --softTextColor: #a6a6a6;
+}
+
+.light {
+    --bg: rgb(240, 231, 219);
+     --textColor: #1A202C;
+     --sofBg: #f0f0f0;
+     --softTextColor:#626262;
 }
 
 .container {
