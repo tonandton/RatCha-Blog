@@ -122,36 +122,38 @@
      -webkit-backdrop-filter: blur(4px);
              backdrop-filter: blur(4px); /* ให้รู้สึกเหมือนกลาส */
      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); /* เบา ๆ */
+     border-radius: 5px;
 }
 
+
+/* สไตล์ */
 .categoryList_category__kGfZ1.categoryList_style__BIpo_ {
-  background-color: rgba(87, 196, 255, 0.2); /* ฟ้าอ่อนโปร่ง */
-  color: #57c4ff;
-  border-radius: 5px;
+  background-color: rgba(100, 180, 255, 0.15); /* ฟ้าเทาอ่อน */
+  color: #64b4ff;
 }
 
+/* อาหาร */
 .categoryList_category__kGfZ1.categoryList_food__AaDJS {
-  background-color: rgba(127, 184, 129, 0.2); /* เขียวอ่อน */
-  color: #7fb881;
-  border-radius: 5px;
+  background-color: rgba(139, 190, 138, 0.15); /* เขียวมัทฉะอ่อน */
+  color: #5fa874;
 }
 
+/* ท่องเที่ยว */
 .categoryList_category__kGfZ1.categoryList_travel__gnqt1 {
-  background-color: rgba(255, 121, 87, 0.2); /* แดงอมส้ม */
-  color: #ff7957;
-  border-radius: 5px;
+  background-color: rgba(255, 150, 120, 0.15); /* แดงพีชอ่อน */
+  color: #f27d5c;
 }
 
+/* วัฒนธรรม */
 .categoryList_category__kGfZ1.categoryList_culture__N8ciR {
-  background-color: rgba(197, 151, 94, 0.25); /* ส้มอ่อน */
-  color: #ffb04f;
-  border-radius: 5px;
+  background-color: rgba(255, 200, 120, 0.15); /* ส้มพาสเทลอ่อน */
+  color: #f0a950;
 }
 
+/* โค้ดดิ้ง */
 .categoryList_category__kGfZ1.categoryList_coding__nDVNj {
-  background-color: rgba(94, 79, 255, 0.2); /* น้ำเงินอมม่วง */
-  color: #5e4fff;
-  border-radius: 5px;
+  background-color: rgba(140, 120, 255, 0.15); /* ม่วงน้ำเงินอ่อน */
+  color: #7c6dff;
 }
 
 .categoryList_image__DU_oJ {
@@ -209,6 +211,7 @@
 
 .card_image__5mzyB {
      object-fit: cover;
+     border-radius: 20px;
 }
 
 .card_textContainer__uD6_C {
@@ -237,4 +240,64 @@
      border-bottom: 1px solid crimson;
      width: max-content;
      padding: 2px 0px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/menu/menu.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.menu_container__jTKJp {
+     flex: 2 1;
+     margin-top: 60px;
+}
+
+.menu_subtitle__J7xJj {
+     color: gray;
+     font-size: 16px;
+     font-weight: 400;
+}
+
+.menu_title__QQ7Zn {
+     font-size: 28px;
+}
+
+.menu_items__3fqGC {
+
+}
+
+.menu_item__iFOBZ {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.menu_imageContainer__2FfB6 {
+     flex: 1 1;
+     aspect-ratio: 1/1;
+     position: relative;
+}
+
+.menu_image__sMcw9 {
+     border-radius: 50%;
+     border: 3px solid lightgray;
+     object-fit: cover;
+}
+
+.menu_textContainer__dAWKh {
+     flex: 4 1;
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+}
+
+.menu_postTitle__PZGIq {
+     font-size: 18px;
+     font-weight: 500;
+     color: var(--softTextColor)
+}
+
+.menu_detail__olOjz {
+     font-size: 12px;
+}
+
+.menu_date__OeTnk {
+     color: gray;
 }
