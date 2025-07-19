@@ -1,89 +1,82 @@
 .container {
-
 }
 
 .title {
-     margin: 50px 0;
+  margin: 50px 0;
 }
 
 .categories {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .category {
-     display: flex;
-     align-items: center;
-     gap: 10px;
-     text-transform: capitalize;
-     width: 15%;
-     height: 60px;
-     justify-content: center;
-     padding: 4px 10px;
-     font-size: 14px;
-     font-weight: 500;
-     backdrop-filter: blur(4px); /* ให้รู้สึกเหมือนกลาส */
-     box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); /* เบา ๆ */
-     border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  width: 15%;
+  height: 60px;
+  justify-content: center;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  backdrop-filter: blur(4px); /* ให้รู้สึกเหมือนกลาส */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); /* เบา ๆ */
+  border-radius: 5px;
 }
-
 
 /* สไตล์ */
 .category.style {
-  background-color: rgba(100, 180, 255, 0.15); /* ฟ้าเทาอ่อน */
-  color: #64b4ff;
+  background-color: rgba(100, 180, 255, 0.35); /* ฟ้าเทาอ่อน */
 }
 
 /* อาหาร */
 .category.food {
-  background-color: rgba(139, 190, 138, 0.15); /* เขียวมัทฉะอ่อน */
-  color: #5fa874;
+  background-color: rgba(139, 190, 138, 0.35); /* เขียวมัทฉะอ่อน */
 }
 
 /* ท่องเที่ยว */
 .category.travel {
-  background-color: rgba(255, 150, 120, 0.15); /* แดงพีชอ่อน */
-  color: #f27d5c;
+  background-color: rgba(255, 150, 120, 0.35); /* แดงพีชอ่อน */
 }
 
 /* วัฒนธรรม */
 .category.culture {
-  background-color: rgba(255, 200, 120, 0.15); /* ส้มพาสเทลอ่อน */
-  color: #f0a950;
+  background-color: rgba(255, 200, 120, 0.35); /* ส้มพาสเทลอ่อน */
 }
 
 /* โค้ดดิ้ง */
 .category.coding {
-  background-color: rgba(140, 120, 255, 0.15); /* ม่วงน้ำเงินอ่อน */
-  color: #7c6dff;
+  background-color: rgba(140, 120, 255, 0.35); /* ม่วงน้ำเงินอ่อน */
 }
 
 .image {
-     border-radius: 10%;
+  border-radius: 10%;
 }
 
 @media screen and (max-width: 1280px) {
-     .category {
-          width: 20%;
-     }
+  .category {
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-     .category {
-          width: 25%;
-     }
+  .category {
+    width: 25%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-     .category {
-          width: 45%;
-     }
+  .category {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 640px) {
-     .category {
-          width: 100%;
-     }
+  .category {
+    width: 100%;
+  }
 }
