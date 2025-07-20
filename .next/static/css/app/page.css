@@ -209,50 +209,57 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/card/card.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
 .card_container__xBy9R {
-     margin-bottom: 50px;
-     display: flex;
-     align-items: center;
-     gap: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 .card_imageContainer__0rYcM {
-     flex: 1 1;
-     height: 350px;
-     position: relative;
+  flex: 1 1;
+  height: 350px;
+  position: relative;
 }
 
 .card_image__5mzyB {
-     object-fit: cover;
-     border-radius: 20px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .card_textContainer__uD6_C {
-     flex: 1 1;
-     display: flex;
-     flex-direction: column;
-     gap: 30px;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .card_date__IWhCo {
-     color: gray;
+  color: gray;
 }
 
 .card_category__QmWQb {
-     color: crimson;
-     font-weight: 500;
+  color: crimson;
+  font-weight: 500;
 }
 
 .card_desc__hMM2S {
-     font-size: 18px;
-     font-weight: 300;
-     color: var(--softTextColor)
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--softTextColor);
 }
 
 .card_link__yV43X {
-     border-bottom: 1px solid crimson;
-     width: max-content;
-     padding: 2px 0px;
+  border-bottom: 1px solid crimson;
+  width: max-content;
+  padding: 2px 0px;
 }
+
+@media screen and (max-width: 1280px) {
+  .card_imageContainer__0rYcM {
+    display: none;
+  }
+}
+
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/menu/menu.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
@@ -269,6 +276,12 @@
 
 .menu_title__QQ7Zn {
   font-size: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu_container__jTKJp {
+    display: none;
+  }
 }
 
 /*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
