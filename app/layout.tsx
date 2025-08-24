@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Mali } from "next/font/google";
+import Providers from "./Providers";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 
@@ -17,8 +18,12 @@ export default function RootLayout({
     <html lang="en">
       <body
       >
-        <Navbar />
-        {children}
+        <Providers>
+          <Navbar />
+          <main className="container">
+            {children}
+          </main>
+        </Providers>
       </body>
     </html>
   );

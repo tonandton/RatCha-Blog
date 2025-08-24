@@ -1,5 +1,5 @@
 Project blog
 
-- tavel
+- travel
 - food
 - lifestyle

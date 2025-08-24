@@ -7,3 +7,24 @@
     @apply px-8 mx-auto;
   }
 }
+
+@layer base {
+  :root {
+    --background: theme(colors.darkBg);
+    --foreground: #f3f3f3;
+    --accent: theme(colors.lightAccent);
+    --accent2: theme(colors.lightAccent2);
+  }
+
+  .dark {
+    --background: theme(colors.lightBg);
+    --foreground: #1a1a1a;
+    --accent: theme(colors.darkAccent);
+    --accent2: theme(colors.darkAccent2);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
